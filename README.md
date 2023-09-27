@@ -1,7 +1,6 @@
 # EmployeeAttrition
 # Project Description:
-
-
+In a work environment, attrition is basically the turnover rate of employees inside an organization.This can happen for many reasons like employees looking for better opportunities,excessive working hours, negative working environment or sudden death. Companies with high attrition rates needs to spend more time and cost to train new employees constantly and hard to maintain quality control.
 
 # Objective:
   1. Discover the factors that affect employee attrition and provide suggestion to reduce
@@ -15,6 +14,7 @@ Then I have also used feature selection techniques like RFE (a wrapper method )t
 Lastly I have trained Logistic Regression, Decision Tree, and Random Forest classifier from Scikit-Learn library for employee attrition and measure the accuracy of models that are built.
 # About Dataset
 The dataset is supplied by Kaggle and contains HR analytics data of employees that stay and leave. The data consists of nearly 1,500 current and former employees with information related to their job satisfaction, work life balance, tenure, experience, salary, and demographic data. The dataset comprises various attributes and features associated with employees 
+
 Education
 1 'Below College'
 2 'College'
