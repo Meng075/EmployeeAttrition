@@ -9,9 +9,13 @@ In a work environment, attrition is basically the turnover rate of employees ins
 # Approach:
 I have first did some basic data exploration like checking whether the dataset contains Null values and duplicate values, and cheking the shape of the dataset,data description, data types of the columns etc. Then I performed Exploratory Data Analysis on the data using various libraries like pandas,seaborn,matplotlib.
 
-Then I have also used feature selection techniques like RFE (a wrapper method )to select the features. The data is then oversampled using the SMOTE technique in order to deal with the imbalanced classes. 
+The data is then oversampled using the RandomOverSampler technique in order to address class imbalance issues, enhancing the model's ability to learn from minority classes.
 
-Lastly I have trained Logistic Regression, Decision Tree, and Random Forest classifier from Scikit-Learn library for employee attrition and measure the accuracy of models that are built.
+Lastly, I trained Logistic Regression, Decision Tree, and Random Forest classifiers using the Scikit-Learn library for predicting employee attrition and measured the accuracy of the built models. The final accuracy for these models is 75.4%, 89.3%, and 95.3%, respectively.
+
+Through hyperparameter tuning, the accuracy of the Logistic Regression Model was increased from 62.8% to 75%.
+
+
 # About Dataset
 The dataset is supplied by Kaggle and contains HR analytics data of employees that stay and leave. The data consists of nearly 1,500 current and former employees with information related to their job satisfaction, work life balance, tenure, experience, salary, and demographic data. The dataset comprises various attributes and features associated with employees 
 
