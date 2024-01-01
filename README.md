@@ -4,7 +4,7 @@ In a work environment, attrition is basically the turnover rate of employees ins
 
 # Objective:
   1. Discover the factors that affect employee attrition and provide suggestion to reduce
-  2. Build a machine learning model based on employee factors to predict whether that employee is       likely to attrition or not?
+  2. Build a machine learning model based on employee factors to predict whether that employee is       likely to attrition or not
 
 # Approach:
 I have first did some basic data exploration like checking whether the dataset contains Null values and duplicate values, and cheking the shape of the dataset,data description, data types of the columns etc. Then I performed Exploratory Data Analysis on the data using various libraries like pandas,seaborn,matplotlib.
